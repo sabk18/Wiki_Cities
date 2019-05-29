@@ -11,7 +11,7 @@ This code is compatible with both Python 2.7 and Python 3.6. The libraries impor
   * BeautifulSoup
   * Pandas
   * Numpy
-  * Regex
+  * regex
   
 ## Data
 
