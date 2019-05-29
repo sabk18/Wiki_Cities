@@ -39,6 +39,11 @@ To extract the timezone for individual cities, the code iterated through each si
 
 **Note:** Line 36 is commented to fetch data for all the cities. If one is interested in finding the data for just the top 50 cities they can uncomment the line. 
 
+***Cleaning Data:*** 
+
+The dataframes were cleaned to remove commas, brackets [], alphabetics in integer/float type columns. All missing values are replaced by 'No Data'
+
+
 ## Overview
 
 This data generates a CSV file that can be uploaded to BigQuery Table (file format is compatible)
@@ -46,3 +51,5 @@ This data generates a CSV file that can be uploaded to BigQuery Table (file form
 Schema: Rank:string,City:string,State:string,Estimate_2018:integer,Census_2010:integer,Percentage_Change:string,Land_area_2016_sqmi:float,Population_density_2016_sqmi:integer,City_Website:string,Time_Zone:string,Location_urls:string
 
 This data can allow for further analysis of these cities by comparing the data of these cities and answer questions like why is New York City more Populated then e.g: Orlando
+
+
