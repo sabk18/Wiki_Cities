@@ -41,7 +41,7 @@ To extract the timezone for individual cities, the code iterated through each si
 
 ***Cleaning Data:*** 
 
-The dataframes were cleaned to remove commas, brackets [], alphabetics in integer/float type columns. All missing values are replaced by 'No Data'
+The dataframes were cleaned to remove commas, brackets [], alphabetics in integer/float type columns, and units. All missing values are replaced by 'No Data'
 
 
 ## Overview
